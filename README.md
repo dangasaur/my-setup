@@ -14,4 +14,14 @@
 - [rust](https://www.rust-lang.org)
 - [java](https://www.oracle.com/java/technologies/downloads)
 
+## Neovim
+Neovim is my preferred console text editor.  I'm currently using a configuration inspired by the Primeagen, see: [0 to LSP](https://www.youtube.com/watch?v=w7i4amO_zaE)
+
+### Requirements
+[treesitter Windows support](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support)
+[cmder git-bash](https://gist.github.com/nickautomatic/02ccb76292f7f8d9767e)
+
+The setup that worked for me on Windows 10/11 was to use LLVM/clang for a c compiler and git-bash in the terminal.  For some reason, cmder bash just never worked with nvim.
+
+One of the cmder/conemu keybinds that doesn't play nice out of the box is C-w which can be remapped to C+S-w.
 
