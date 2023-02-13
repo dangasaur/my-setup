@@ -17,7 +17,18 @@
 ## Neovim
 Neovim is my preferred console text editor.  I'm currently using a configuration inspired by the Primeagen, see: [0 to LSP](https://www.youtube.com/watch?v=w7i4amO_zaE)
 
-### Requirements
+### Installation
+
+1. make sure that git and nvim are downloaded and installed
+2. install packer per the Windows instructions here: [packer quickstart](https://github.com/wbthomason/packer.nvim#quickstart)
+3. note that the nvim config and data paths on windows are (respectively):
+    - ```~/AppData/Local/nvim```
+    - ```~/AppData/Local/nvim-data```
+4. copy the contents of the ```nvim``` into ```~/AppData/Local/nvim```
+5. update ```~/.bash_profile``` with the following
+    - ```alias vim=nvim```
+6. launch nvim
+
 [treesitter Windows support](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support)
 [cmder git-bash](https://gist.github.com/nickautomatic/02ccb76292f7f8d9767e)
 

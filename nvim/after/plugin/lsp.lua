@@ -5,7 +5,7 @@ lsp.preset('recommended')
 
 lsp.ensure_installed({
 	'eslint',
-	'sumneko_lua'
+	'lua_ls'
 })
 
 -- (Optional) Configure lua language server for neovim
