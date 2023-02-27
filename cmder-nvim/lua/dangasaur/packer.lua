@@ -41,4 +41,11 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'}, -- Optional
 		}
 	}
+    use({
+        'Pocco81/auto-save.nvim',
+        config = function()
+            require("auto-save").setup { }
+        end
+    })
+    use('rust-lang/rust.vim')
 end)
